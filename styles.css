@@ -1,0 +1,15 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: bisque;
+}
+
+main {
+    background-color: rgb(252, 214, 167);
+    
+}
+
+#time {
+    font-size: 10rem;
+    font-weight: bold;
+}
