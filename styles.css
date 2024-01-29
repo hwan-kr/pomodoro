@@ -1,15 +1,32 @@
 body {
+    background-color: #fffff0;
     font-family: 'Roboto', sans-serif;
-    text-align: center;
-    background-color: bisque;
 }
 
-main {
-    background-color: rgb(252, 214, 167);
-    
-}
-
-#time {
-    font-size: 10rem;
+#main-header {
     font-weight: bold;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.timer {
+    background-color: #fafab3f0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%; /* 혹은 원하는 너비 */
+    height: 40%; /* 혹은 원하는 높이 */
+    text-align: center;
+
+    border: 1px solid #404040;
+    border-radius: 12px;
+}   
+
+.timer p {
+    font-size: 8rem;
+    margin-top: 1rem;
+    color: #facaca;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
 }
